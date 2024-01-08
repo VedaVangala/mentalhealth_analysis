@@ -6,7 +6,7 @@ FROM students_health;
 SELECT COUNT(*) AS total_records 
 FROM students_health;
 
--- Count occurrences of inter_dom values in the students_health table
+-- Count occurrences of international and domestic student values in the students_health table
 SELECT inter_dom, COUNT(*) AS count_inter_dom 
 from students_health GROUP BY inter_dom ;
 
